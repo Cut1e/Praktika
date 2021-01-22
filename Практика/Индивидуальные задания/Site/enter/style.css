@@ -1,0 +1,90 @@
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.input 
+{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.input  input[type="submit"] 
+{
+width: 100%;
+height: 38px;
+background: #fdc903;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+color:#fff;
+border: 0;
+margin-top: 23px;
+cursor: pointer;
+}
+.input input[type="submit"]:hover
+{
+color: #fdc903;
+background: #000;
+-webkit-transition: .2s;
+transition: .2s;
+}
+.input input[type="text"] 
+{
+width:100%;
+margin-bottom: 10px;
+}
+.input input[type="password"] 
+{
+width:100%;
+}
+input[type="text"]
+{
+    height: 30px;
+    background: #f0f3f5;
+    padding: 0 13px;
+    border: 1px solid #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+input[type="password"]
+{
+    height: 30px;
+    background: #f0f3f5;
+    padding: 0 13px;
+    border: 1px solid #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+.logo_section
+{
+    text-align: center;
+    padding: 1а5px 0px 0px;
+    
+}
+
+.vhod form
+{
+width: 433px;
+padding-bottom: 605px;
+}
+.parent .input h2
+{
+font-family: 'Roboto', sans-serif;
+font-size: 36px;
+color: #313030;
+margin-bottom: 19px;
+}
+body
+{
+    background:url("../img/vh.png");
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Задание 3_1</title>
+<script>
+function factorial(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
+}
+let k=+prompt("Введите  k");
+var s=0; let x=1;
+while(x<2)
+	    	{ 
+	    	 s=(Math.pow(Math.E,k)*Math.pow(x,k))/(factorial(2*k-1));
+             alert(" Ответ: "+s);
+			 x+=0.1;
+	        }
+</script>
+</head>
+<body>
+</body>
+</html>

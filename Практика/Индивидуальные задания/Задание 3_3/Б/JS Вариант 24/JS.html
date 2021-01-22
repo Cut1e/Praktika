@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Задание 3_3</title>
+<script>
+mas = new Array(3);
+for(i=0;i<5;i++)
+mas[i]=new Array(3);
+document.write("Матрица: ");
+for(i=0;i<5;i++)
+for(j=0;j<5;j++)
+mas[i][j]=Math.round(Math.random()*15-10);
+for(i=0;i<5;i++)
+{
+document.writeln("<br>");
+for(j=0;j<5;j++)
+document.write("  "+mas[i][j])+"  ";}
+
+
+let ch=0;
+let otr=0;
+for (i=0;i<mas.length;i++) {
+for(j =0; j<mas.length; j++){
+if (i+j==6 && mas[i][j]%2!=0)
+{
+ch+=mas[i][j];
+}
+}
+}
+document.write("<br>");
+document.write("Сумма четных="+ch );
+for (i=0;i<mas.length;i++) {
+for(j =0; j<mas.length; j++){
+if (i+j==6 && mas[i][j]<0)
+{otr++;
+}
+}
+}
+document.write("<br>");
+document.write("Кол-во отр="+otr );
+let razn;
+razn=ch-otr;
+document.write("<br>");
+document.write("Разница="+razn );
+</script>
+</head>
+<body>
+</body>
+</html>
